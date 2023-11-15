@@ -2,7 +2,7 @@
 
 Uma biblioteca para facilitar ao fazer calculos matematicos
 
-## Instalção
+## Instalação
 
 ```sh
 npm install react-native-matematica-facilitada-ar
