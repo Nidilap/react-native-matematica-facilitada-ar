@@ -17,6 +17,22 @@ const MatematicaFacilitadaAr = NativeModules.MatematicaFacilitadaAr
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
+function multiply(a: number, b: number): Promise<number> {
   return MatematicaFacilitadaAr.multiply(a, b);
 }
+
+function soma(a: number, b: number): Promise<number> {
+  return new Promise((resolve, reject) => {
+    const soma: number = a + b;
+    resolve(soma);
+  });
+}
+
+function subtracao(a: number, b: number): Promise<number> {
+  return new Promise((resolve, reject) => {
+    const subtracao: number = a - b;
+    resolve(subtracao);
+  });
+}
+
+export { multiply, soma, subtracao };

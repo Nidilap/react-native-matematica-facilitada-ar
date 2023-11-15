@@ -11,11 +11,13 @@ npm install react-native-matematica-facilitada-ar
 ## Usage
 
 ```js
-import { multiply } from 'react-native-matematica-facilitada-ar';
+import { multiply, soma, subtracao } from 'react-native-matematica-facilitada-ar';
 
-// ...
+// Multiplique o resultado
 
-const result = await multiply(3, 7);
+const resultMultiplicacao = await multiply(3, 7); // Resultado: 21
+const resultSoma = await soma(3, 7); // Resultado: 10
+const resultSubtracao = await subtracao(3, 7); // Resultado: -4
 ```
 
 ## Contributing
