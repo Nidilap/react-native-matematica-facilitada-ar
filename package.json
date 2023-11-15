@@ -1,6 +1,6 @@
 {
   "name": "react-native-matematica-facilitada-ar",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Uma biblioteca para facilitar ao fazer calculos matematicos",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
