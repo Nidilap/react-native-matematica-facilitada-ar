@@ -22,14 +22,14 @@ function multiply(a: number, b: number): Promise<number> {
 }
 
 function soma(a: number, b: number): Promise<number> {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     const soma: number = a + b;
     resolve(soma);
   });
 }
 
 function subtracao(a: number, b: number): Promise<number> {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     const subtracao: number = a - b;
     resolve(subtracao);
   });
